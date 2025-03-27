@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total R"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
+        android:text="RadioButton"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/btnCompute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <CheckBox
+        android:id="@+id/chkCheese"
+        android:layout_width="151dp"
+        android:layout_height="45dp"
+        android:text="Cheese"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza delivery"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <CheckBox
+        android:id="@+id/chlOlives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Olives"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
